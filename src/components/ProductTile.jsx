@@ -19,7 +19,7 @@ const ProductTile = ({ product }) => {
                   gap-3 p-4  mt-10 ml-5 rounded-xl"
     >
       <p
-        className="absolute right-2 top-2 text-white font-bold bg-[rgba(0,0,0,0.9)] 
+        className="absolute right-2 top-2 text-white font-bold bg-[rgba(69,10,10,0.9)] 
                     rounded-lg p-2 py-1 "
       >
         ${product.price}

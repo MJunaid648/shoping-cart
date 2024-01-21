@@ -2,14 +2,14 @@ import { useEffect, useState } from "react";
 import { Circles } from "react-loader-spinner";
 import ProductTile from "../components/ProductTile";
 
-const Home = () => {
+const Home = ({ url = "https://fakestoreapi.com/products" }) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(false);
 
   async function fetchListOfProducts() {
     setLoading(true);
     try {
-      const res = await fetch("https://fakestoreapi.com/products");
+      const res = await fetch(url);
       const data = await res.json();
       setProducts(data);
       setLoading(false);

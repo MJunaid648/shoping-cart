@@ -2,7 +2,6 @@ import { useDispatch } from "react-redux";
 import { removeFromCart } from "../store/slices/cart-slice";
 import { BsCartXFill } from "react-icons/bs";
 
-
 const CartTile = ({ cartItem }) => {
   const dispatch = useDispatch();
 
@@ -24,10 +23,10 @@ const CartTile = ({ cartItem }) => {
           <p className="text-black font-extrabold mt-2">${cartItem.price}</p>
         </div>
         <button
-          className="self-end  text-black text-2xl"
+          className="self-end  text-red-900 text-2xl bg-white p-2 rounded-xl"
           onClick={() => handleRemoveFromCart()}
         >
-         <BsCartXFill />
+          <BsCartXFill />
         </button>
       </div>
     </div>

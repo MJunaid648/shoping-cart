@@ -18,6 +18,21 @@ const Header = () => {
         <Link to="/">
           <li className=" cursor-pointer hover:text-red-900">Home</li>
         </Link>
+        <Link to="/categories/electronics">
+          <li className=" cursor-pointer hover:text-red-900">Electronics</li>
+        </Link>
+        <Link to="/categories/men-clothing">
+          <li className=" cursor-pointer hover:text-red-900">Men's Clothing</li>
+        </Link>
+        <Link to="/categories/women-clothing">
+          <li className=" cursor-pointer hover:text-red-900">
+            Women's Clothing
+          </li>
+        </Link>
+        <Link to="/categories/jewellery">
+          <li className=" cursor-pointer hover:text-red-900">Jewellery</li>
+        </Link>
+
         <Link to="/cart" className="w-8">
           <li className="relative cursor-pointer">
             {cart && cart.length ? (
