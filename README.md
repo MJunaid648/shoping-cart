@@ -18,4 +18,5 @@ Check out the live demo of Buzz Bazaar [here](https://buzz-bazaar.netlify.app/).
 ## Screenshots
 
 ![Screenshot](https://github.com/MJunaid648/shopping-cart/blob/main/store-img1.png)
+![Screenshot](https://github.com/MJunaid648/shopping-cart/blob/main/store-img-3.png)
 
