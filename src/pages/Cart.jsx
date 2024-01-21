@@ -11,13 +11,12 @@ const Cart = () => {
     setTotalCartPrice(cart.reduce((acc, curr) => acc + curr.price, 0));
   }, [cart]);
 
-  console.log(totalCartPrice);
   return (
     <>
       {cart && cart.length ? (
-        <div className="flex flex-col justify-between gap-6 md:flex-row py-4">
+        <div className="flex flex-col justify-between  gap-6 md:flex-row py-4">
           {/* CART STATS */}
-          <div className="self-center md:self-start flex flex-col gap-4 ">
+          <div className="self-start flex flex-col gap-4 ">
             <h1 className="font-bold text-2xl text-red-800 text-nowrap">
               Your Cart Summary
             </h1>

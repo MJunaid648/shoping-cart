@@ -31,8 +31,7 @@ const Details = () => {
       }
     }
     fetchProductDetails();
-  }, []);
-  console.log(productDetails);
+  }, [param.id]);
 
   return (
     <div className="flex flex-col justify-center items-center sm:items-start sm:flex-row gap-6 py-6 ">
